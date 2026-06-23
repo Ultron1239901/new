@@ -3,6 +3,8 @@ class Solution:
     self.name = name
   def reverse(self):
     s = self.name[::-1]
+    for i in range(0,len(self.name)):
+      print(self.name)
     return s
 
 sol = Solution("Vaibhav")
