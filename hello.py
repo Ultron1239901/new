@@ -3,7 +3,7 @@ class Solution:
     self.name = name
   def reverse(self):
     s = self.name[::-1]
-    for i in range(0,len(self.name)):
+    for i in range(0,200):
       print(self.name)
     return s
 
